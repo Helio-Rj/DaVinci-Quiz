@@ -2,6 +2,8 @@ import pandas as pd
 
 #  Listagem de perguntas
 questions = [
+    ["Qual a capital da Nova Zelândia ?", "Canberra", "Manila", "Honiara",
+     "Welligton", 4],
     ["Qual é a capital da França?", "Paris", "Londres", "Berlim", "Roma", 1],
     ["Qual é o resultado de 8 + 5?", "12", "13", "15", "18", 2],
     ["Quem pintou a Mona Lisa?", "Picasso", "Da Vinci", "Van Gogh", "Warhol", 2],
@@ -26,9 +28,10 @@ questions = [
     ["Qual é o maior oceano do mundo?", "Atlântico", "Índico", "Pacífico", "Ártico", 3],
     ["Qual é o resultado de 2 elevado a 8?", "8", "16", "64", "256", 4],
     ["Quem escreveu a obra '1984'?", "George Orwell", "Aldous Huxley", "Ernest Hemingway", "F. Scott Fitzgerald", 1],
-    ["Qual é o resultado de 15 menos 7?", "5", "6", "7", "8", 3],
+    ["Quantas vezes o vasco da gama foi rebaixado para série B?", "0", "1", "4", "5", 3],
     ["Quem foi o pintor do quadro 'A Última Ceia'?", "Pablo Picasso", "Salvador Dalí", "Michelangelo",
      "Leonardo da Vinci", 4]
+
 ]
 
 # Dataframe Pandas
